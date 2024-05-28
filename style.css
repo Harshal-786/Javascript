@@ -21,3 +21,30 @@
   cursor: pointer;
   background-color: rgb(10, 151, 246);
 } */
+
+
+/* 
+ 9. Random Number Generator
+
+.label{
+  display: flex;
+  justify-content: center;
+  font-size: 10em;
+  border: 1px solid black;
+  width: 200px;
+}
+#container{
+  margin-left: 70px;
+}
+.dice{
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(83, 164, 246);
+  transition: background-color 0.25s;
+  border: none;
+  border-radius: 10px;
+}
+.dice:hover{
+  background-color: rgb(1, 126, 250);
+  cursor: pointer;
+} */

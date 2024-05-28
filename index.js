@@ -131,3 +131,20 @@
   // console.log(min);
 
 
+// 9. Random Number Generator
+
+  // const min = 1;
+  // const max = 6;
+  // const Roll = document.getElementById("dice");
+  // const mylabel = document.getElementById("mylabel");
+  // let ranNum;
+
+
+  // dice.onclick = function(){
+  //   ranNum = Math.floor(Math.random()*max)+min
+  //   mylabel.textContent = ranNum;
+  // }
+  
+  
+
+  
