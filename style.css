@@ -1,0 +1,23 @@
+/* 7 - counter Program
+
+#countLabel{
+  display: block;
+  text-align: center;
+  font-size: 10em;
+  font-family: Helvetica, sans-serif;
+}
+#btnContainer{
+  text-align: center;
+
+}
+.btn{
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(90, 186, 250);
+  transition: background-color;
+  border-radius: 20px;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: rgb(10, 151, 246);
+} */
