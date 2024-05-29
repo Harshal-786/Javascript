@@ -188,6 +188,49 @@
 // }
 
 
+// 14 - String Methods
+
+  // let Name = " Zeren ";
+
+  // let letter1 = Name.charAt(0);
+  // let letter2 = Nane.charAt(1);
+  // console.log(letter);
+  // console.log(letter2);
+
+  // console.log(Name.indexOf("r"));
+  // console.log(Name.indexOf("e"));
+
+  // console.log(Name.lastIndexOf("e"));
+
+  // console.log(Name.length)
+
+  // Name = Name.trim(); // trim white spaces
+  // console.log(Name);
+
+  // Name = Name.toUpperCase();
+  // console.log(Name);
+  // Name = Name.toLowerCase();
+  // console.log(Name);
+
+  // Name = Name.repeat(5);
+  // console.log(Name);
+
+  // let result = Name.startsWith(" "); //to check wether it start with given string
+  // let result2 = Name.includes("");
+
+  // if (result){
+  //   console.log("your name can't begin with ' ' ");
+  // }else{
+  //   console.log(Name);
+  // }
 
 
+  // let phoneNumber = "123-456-7890";
+
+  // phoneNumber = phoneNumber.replaceAll("-", "");
+  // console.log(phoneNumber);
+
+  // phoneNumber = phoneNumber.padStart(15,"0"); // pad string , first value -> lenth ,second -> values we wanna put
+  // console.log(phoneNumber);
+ 
 
