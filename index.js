@@ -145,6 +145,49 @@
   //   mylabel.textContent = ranNum;
   // }
   
-  
+
+//10 - if statements
+
+  //  let age = 18;
+  //  let hasLicence = false;
+
+  //  if (age >= 16){
+  //     console.log("your're eligible to drive");
+
+  //     if (hasLicence){
+  //       console.log("you can drive the car");
+  //     } else{
+  //       console.log("you don't have licence yet");
+  //     }
+  //  }else{
+  //   console.log("you're not eligible to drive");
+  //  }
 
   
+// const mytext = document.getElementById("mytext");
+// const Btn = document.getElementById("Btn");
+// const reply = document.getElementById("reply");
+// let age ;
+
+// Btn.onclick = function(){
+
+//   age = mytext.value ;
+//   age = Number(age);
+
+//   if (age >= 100){
+//     reply.textContent = "too old to enter";
+//   }else if (age === 0 ){
+//     reply.textContent = ("you were just born");
+//   }else if (age <0 ){
+//     reply.textContent  ="your age can't be less than 0 ";
+//   }else if (age < 18){
+//     reply.textContent = ("you must be 18+");
+//   } else {
+//     reply.textContent= ("you can enter ")
+//   }
+// }
+
+
+
+
+
