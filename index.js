@@ -234,3 +234,130 @@
   // console.log(phoneNumber);
  
 
+//15 - string slicing
+
+  // const fullName = "Blue Prince";
+
+  // let firstName = fullName.slice(0,4);
+  // let lastName = fullName.slice (5,11);
+  // console.log(firstName);
+  // console.log(lastName);
+
+  // let firstchar = fullName.slice(0,1);
+  // let lastchar = fullName.slice(-1);
+  // console.log(firstchar);
+  // console.log(lastchar);
+
+  // let first = fullName.slice(0, fullName.indexOf(" "))
+  // console.log(first);
+
+  // let second = fullName.slice(0, fullName.length);
+  // console.log(second);
+
+  // let third = fullName.slice(fullName.indexOf(" ")+ 1);
+  // console.log(third);
+
+  // const email = "blahblah@gmail.com";
+
+  // let username = email.slice(0, email.indexOf("@"));
+  // let extension = email.slice(email.indexOf("@"));
+  // console.log(username);
+  // console.log(extension);
+
+
+// 16- method chaining
+
+  // let userName = window.prompt("enter your username: ");
+
+  // userName = userName.trim().slice(0).charAt(0).toUpperCase() + userName.trim().slice(1).toLowerCase();
+
+  // console.log(userName);
+
+
+// 18 - Strict equality
+
+  // = assignment operator
+  // == comparision operator (compare if values are equal)
+  // === strict equality operator (compare if values & datatype are equal)
+  // != inequality operator
+  // !== strict inequality operator
+
+
+// 19- while loops 
+
+  // let username = "";
+
+  // while (username === ""){
+  //   username= window.prompt("enter your name:");
+  // }
+  // console.log(`hello ${username}`);
+
+
+  //  let logedIn = false;
+  //  let username ;
+  //  let password ;
+
+  //  while (!logedIn){
+  //   username = window.prompt ("enter your username");
+  //   password = window.prompt("enter your password");
+
+  //   if (username === "myUsername" && password === "myPassword"){
+  //     logedIn = true;
+  //     console.log(`you've loged in `);
+  //   }else {
+  //     console.log("invalid credentials ");
+  //   }
+  //  }
+
+
+// 22 - functions
+
+  // function HappyBirthday(name,age){
+  //   console.log(`Happy Birthday to you !`);
+  //   console.log(`Happy Birthday to you !`);
+  //   console.log(`Happy Birthday Dear ${name} !`);
+  //   console.log(`Now you're ${age} year old`);
+  // }
+
+  // HappyBirthday("Ana", 250);
+
+
+  // function Add (a,b){
+  //   return a+b ;
+  // }
+  // console.log(Add(3,5));
+
+  //   function Substract (a,b){
+  //   return a-b ;
+  // }
+  // console.log(Substract(3,5));
+
+  // function isEven(number){
+  //   let answer = (number % 2 === 0 ) ? true : false;
+  //   // return answer;
+  //   console.log(answer);
+  // }
+  // isEven(10);
+
+  // function isValidEmail(email){
+  //   let result = (email.includes("@")) ? true : false;
+  //   console.log(result);
+  // }
+  // isValidEmail("blahblah@gmail.com");
+
+
+// 23 - variable scope = where a variable is recognized and accessible (local vs global)
+
+  // x = 3;
+
+  // function function1(){
+  //   x= 1;
+  //   console.log(x); // local variable will get accessed first instead of global
+  // }
+  // function function2(){
+  //   x =2 ;
+  //   console.log(x);
+  // }
+
+  // function1();
+
