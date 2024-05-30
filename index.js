@@ -361,3 +361,50 @@
 
   // function1();
 
+
+
+// 24-  temperature conversion
+
+  // const textbox= document.getElementById("textbox");
+  // const toFahrenheit = document.getElementById("toFahrenheit") ;
+  // const toCelsius = document.getElementById("toCelsius");
+  // const answer = document.getElementById("answer");
+  // // const submitBtn = document.getElementById("submitBtn");
+  // let temp;
+
+  // function convert(){
+  
+
+  //   if(toFahrenheit.checked){
+  //     temp = Number(textbox.value);
+  //     temp = temp*9/5 + 32;
+  //     answer.textContent = temp + "°F" ;
+
+  //   } else if (toCelsius.checked){
+  //     temp = Number(textbox.value);
+  //     temp = (temp-32)*5/9;
+  //     answer.textContent = temp.toFixed(1) + "°C";
+  //   }else{
+  //     answer.textContent = "select unit";
+  //   }
+  // }
+  
+  
+
+//25- Arrays
+
+  // let fruits = ["apple", "orange", "banana","coconut"];
+
+  // console.log(fruits[0]);
+  // console.log(fruits[1]);
+
+  // for (let i = 0; i<fruits.length; i++){
+  //   console.log(fruits[i]);
+  // }
+
+  // for (let fruit of fruits){
+  //   console.log(fruit);
+  // } //shortcut version
+
+  //fruits.sort();
+  //fruits.sort().reverse();
