@@ -408,3 +408,35 @@
 
   //fruits.sort();
   //fruits.sort().reverse();
+
+
+// 26- spread operator
+
+  // spread operator = ... allows an iteratble such as an
+  //                   array or string to be expanded
+  //                   into seprate elements (unpack the elements)
+  
+
+  // let numbers = [1,2,3,4,5,6];
+  // let max = Math.max(...numbers);
+  // let min = Math.min(...numbers); 
+
+  // console.log(min);
+  // console.log(max);
+  // console.log(numbers)
+
+  // let username = "Bro Code";
+  // let letters = [...username];
+  // console.log(letters);
+
+  // let letters2 = [...username].join("-");
+  // console.log(letters2);
+
+  // let fruits = ["apple", "orange", "banana"];
+  // let vegetables = ["carrots","celery", "potatoes"]
+
+  // let newFruits = [...fruits, ...vegetables, "eggs", "milk"]; //using spread operatro to combine two arrays
+
+  // console.log(newFruits);
+
+
