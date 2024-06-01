@@ -440,3 +440,63 @@
   // console.log(newFruits);
 
 
+// 27 - rest parameters = (...rest) allow a function work 
+//                        with a variable number of arguments
+//                        by bundling them into an array
+
+//                        spread = expands an array into seperate elements 
+//                        rest = bundles sepearate elements into an array
+
+
+  // function openFridge(...food){
+  //   console.log(food);
+  // }
+  // function getfood(...foods){
+  //   return foods;
+  // }
+
+  // const food1 = "pizza";
+  // const food2 = "hamburger";
+  // const food3 = "sushi";
+  // const food4 = "noodles";
+  // const food5 = "cake";
+
+  // openFridge(food1, food2,food3,food4 ,food5);
+
+  // const foods = getfood(food1, food2, food3,food4,food5);
+  // console.log(foods);
+
+
+  // function sum(...numbers){
+
+  //   let result = 0;
+  //   for (let number of numbers){
+  //     result += number;
+  //   }
+  //   return result;
+  // }
+  // const total = sum(1,2,5);
+
+  // console.log(`your total is $${total}`)
+
+
+  // function getAverage(...numbers){
+
+  //   let result = 0;
+  //   for (let number of numbers){
+  //     result += number;
+  //   }
+  //   return result/numbers.length;
+  // }
+
+  // const total = getAverage(10,10,10,10,10)
+  // console.log(total);
+
+
+  function combineStrings(...strings){
+    return strings.join(" ");
+  }
+  const prince =combineStrings("dark","blue", "prince", "II");
+  console.log(prince);
+
+
