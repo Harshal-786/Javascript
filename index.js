@@ -493,10 +493,225 @@
   // console.log(total);
 
 
-  function combineStrings(...strings){
-    return strings.join(" ");
+  // function combineStrings(...strings){
+  //   return strings.join(" ");
+  // }
+  // const prince =combineStrings("dark","blue", "prince", "II");
+  // console.log(prince);
+
+
+
+// 30 - Callbacks
+
+  // callback = a function that is passed as an argument to another function
+  
+  //          used to handle asynchronous operations:
+  //          1. Reading a file
+  //          2. Network requests
+  //          3. Interacting with databases
+  
+  //         " Hey , when you're done ,call this next. "
+
+
+  // function hello(callback){
+  //   console.log("hello");
+  //   callback();
+  // }
+  // function leave(){
+  //   console.log("leave");
+  // }
+
+  // hello(leave);
+
+
+  // function sum (callback,x , y){
+  //   let result = x + y;
+  //   callback (result);
+  // }
+  // function displayResult(result){
+  //   console.log(result);
+  // }
+  // sum(displayResult, 10 ,20);
+
+  // function displayHeader(result){
+  //   document.getElementById("my").textContent = result;
+  // }
+  // sum(displayHeader,10,10);
+
+
+
+// 31 - forEach()
+
+  // forEach() = method used to iterate over the elements
+  //             of an array and apply a specified function ( callback)
+  //            to each element 
+  //            array.forEach(callback)
+  //            element, index, array are provided
+
+
+  // let numbers = [11,22,33,44,55];
+
+  // numbers.forEach(double);
+  // numbers.forEach(triple);
+  // numbers.forEach(display);
+
+  // function double(element ,index,array){
+  //   array[index] = element*2;
+  // }
+  // function triple(element ,index,array){
+  //   array[index] = element*3;
+  // }
+
+  // function display(element){
+  //   console.log(element);
+  // }
+
+
+  // let fruits = ["orange","apple", "banana","kiwi","grape"];
+
+  
+  // fruits.forEach(UpperCase);
+  // fruits.forEach(firstUpCase);
+  // fruits.forEach(display);
+  
+
+  // function UpperCase(element,index,array){
+  //   array[index] = element.toUpperCase();
+  // }
+
+  // function firstUpCase(element,index,array){
+  //   array[index] = element.charAt(0).toUpperCase()+ element.slice(1);
+  // }
+  // function display(element){
+  //   console.log(element);
+  // }
+
+
+// 32- map()
+
+//  map() = accepts a callback and applies that function to
+//          each element of an array, then return a new array
+
+  // const number= [1,2,3,4,5];
+
+  // const squares = number.map(square);
+
+  // console.log(squares);
+
+  // function square (element){
+  //   return Math.pow(element,2);
+  // }
+
+  // const cubes = number.map(cube);
+  // console.log(cubes);
+
+  // function cube(element){
+  //   return Math.pow(element,3);
+  // }
+
+
+  // const students = ["spongebob","patrick", "squidward", "sandy"];
+
+  // const StudentsUppercase = students.map(uppercase);
+  // console.log(StudentsUppercase);
+
+  // function uppercase(element){
+  //   return element.toUpperCase();
+  // }
+
+  // const dates = ["2024-5-23","2004-7-04","2015-9-12","2023-10-15"];
+
+  // const formatedDates = dates.map(formatDates);
+  // console.log(formatedDates);
+
+  // function formatDates (element){
+  //   const parts = element.split("-");
+  //   return `${parts[1]}/${parts[2]}/${parts[0]}`;
+  // }
+
+
+// 33- filter()
+
+// filter() = creates a new array by filtering out elements
+
+  // let numbers = [1,2,3,4,5,6,7];
+
+  // let evenNumbers = numbers.filter(isEven);
+  // console.log(evenNumbers);
+
+  // function isEven(element){
+  //   return element % 2 === 0;
+  // }
+
+  // let oddNumbers = numbers.filter(isOdd);
+  // console.log(oddNumbers);
+
+  // function isOdd(element){
+  //   return element % 2 !== 0;
+  // }
+
+  
+  // const ages = [16,17,18,14,19,20,25];
+
+  // const minors = ages.filter(isNotAdult);
+  // console.log(minors);
+
+  // function isNotAdult (element){
+  //   return element< 18;
+  // }
+
+  // const adults= ages.filter(isAdult);
+  // console.log(adults);
+
+  // function isAdult(element){
+  //   return element >= 18;
+  // }
+
+
+  // const words = ["apple","orange","banana","kiwi","pomegranate","watermelon","pineaple"];
+
+  // const longWords = words.filter(getLongwords);
+  // console.log(longWords);
+
+  // function getLongwords (element){
+  //   return element.length > 6;
+  // }
+
+  // const shortWords = words.filter(getShortwords);
+  // console.log(shortWords);
+
+  // function getShortwords(element){
+  //   return element.length > 6;
+  // }
+
+
+
+// 34- reduce()
+
+// reduce() = reduce the elements of an array to a single value
+
+  // const prices = [5,30,10,25,15,20];
+
+  // const total = prices.reduce(sum);
+  // console.log(`$${total.toFixed(2)}`);  //toFixed() method is useful
+
+  // function sum(accumulator, element){
+  //   return accumulator + element;
+  // }
+
+
+  const grades =[75,50,90,80,65,95];
+
+  const maximum = grades.reduce(getMax);
+  console.log(maximum);
+
+  function getMax(accumulator,element){
+    return Math.max(accumulator,element);
   }
-  const prince =combineStrings("dark","blue", "prince", "II");
-  console.log(prince);
 
-
+  const minimum = grades.reduce(getMin);
+  console.log(minimum);
+  
+  function getMin (previous,element){
+    return Math.min(previous,element);
+  }
